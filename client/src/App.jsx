@@ -1,6 +1,12 @@
+import Header from './components/header.jsx'
+import Principal from './components/Principal.jsx'
+
 function App() {
   return (
-    <p className="text-3xl">Hola</p>
+    <div className=''>
+      <Header />
+      <Principal />
+    </div>
   )
 }
 
