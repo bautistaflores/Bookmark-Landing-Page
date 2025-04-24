@@ -31,10 +31,10 @@ function Features() {
         <>
         <div className='flex flex-col justify-center items-center text-[18px] mt-15'>
             <h2 className='text-3xl font-medium mb-3'>Features</h2>
-            <p className='text-gray-500 text-center max-w-[530px] mx-auto'>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+            <p className='text-gray-500 text-center max-w-[535px] mx-auto'>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
         </div>
 
-        <section className='relative overflow-hidden px-6 md:px-20 py-20'>
+        <section className='relative px-6 md:px-20 py-20'>
             {/* Tabs */}
             <div className='flex justify-center mb-20'>
                 <div className='flex gap-10 relative'>
@@ -58,7 +58,7 @@ function Features() {
             </div>
 
             {/* Forma curva */}
-            <div className="absolute w-[800px] h-[450px] bg-blue-500 rounded-r-full left-[-5%] bottom-[-10%] z-0"></div>
+            <div className="absolute w-[800px] h-[400px] bg-blue-500 rounded-r-full left-[-5%] bottom-[-5%] z-0"></div>
             
             {/* Contenido */}
             <div className='flex flex-row items-center relative gap-35 px-40'>
